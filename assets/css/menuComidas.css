@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: white;
+}
+
+.menu_comidas {
+  background-color: black;
+  padding-top: 100px;
+}
+
+.fila::after {
+  content: "";
+  clear: both;
+  display: block;
+  z-index: 100;
+}
+
+img {
+  width: 100%;
+}
+
+.columna {
+  float: left;
+  width: 33%;
+  /* padding-right: 5px; */
+  position: relative;
+}
+
+.columna:hover figcaption {
+  display: block;
+}
+
+.columna figcaption {
+  display: none;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  background: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  padding: 15px;
+  font: 18px/20px verdana;
+  color: rgb(255, 187, 0);
+}
+
+/* Samsung Galaxy Tab 10	vp: 800 x 1280 */
+
+@media screen and (max-width: 800px) {
+  h1 {
+    text-align: center;
+  }
+  .menu_comidas {
+    padding-top: 100px;
+  }
+
+  .imagen {
+    width: 250px;
+    height: 250px;
+  }
+
+  .columna {
+    padding: 15px;
+  }
+
+  .columna figcaption {
+    display: block;
+    padding: 20px;
+    position:static;
+    
+    
+  }
+
+}
