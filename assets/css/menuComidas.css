@@ -92,6 +92,9 @@ img {
 }
 
 @media (min-width: 900px) {
+  img {
+  width: 90%;
+}
   .body-container {
     grid-template:
       "header  header header"  100px
