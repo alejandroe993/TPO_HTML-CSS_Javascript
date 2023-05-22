@@ -120,7 +120,9 @@ CONTACTO
 
 
 ## Acceso al Proyecto
-Para acceder al proyecto se puede utilizar el link al <a href="https://github.com/alejandroe993/TPO_HTML-CSS_Javascript.git" target="_blank">repositorio de GitHub</a>
+Para acceder al proyecto se puede utilizar el link al <
+
+<a href="https://github.com/alejandroe993/TPO_HTML-CSS_Javascript.git" target="_blank">repositorio de GitHub</a>
 
 
 
