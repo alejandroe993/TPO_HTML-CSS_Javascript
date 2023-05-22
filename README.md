@@ -1,7 +1,7 @@
 <h1 align="center"> TPO Desarrollo Web </h1>
 
 
-<p align="center"> <img src ="https://github.com/alejandroe993/TPO_HTML-CSS_Javascript/assets/95320686/be080835-75f2-4b42-88a1-6849e310e87a" width="600" height="250"> </p>
+<p align="center"> <img src ="https://github.com/alejandroe993/TPO_HTML-CSS_Javascript/assets/95320686/be080835-75f2-4b42-88a1-6849e310e87a" width="390" height="150"> </p>
 
 
 ## Introduccion
