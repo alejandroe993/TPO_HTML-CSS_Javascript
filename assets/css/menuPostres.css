@@ -14,17 +14,22 @@ img{
 
 .contenedor{
     padding-top: 110px;
-    background-color: orange;
+    background-color: black;
     padding-bottom: 40px;
 }
 
 .presentacion{
+    padding-top: 120px;
     width: 90%;
     margin-inline: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+}
+
+h2 {
+    color: white;
 }
 /**/
 .informacion{
