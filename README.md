@@ -5,7 +5,7 @@
 
 
 ## Introduccion
-Proyecto Web desarrollado como Trabajo Practico Obligatorio del curso Codo a Codo 4.0. El mismo es un trabajo grupal de 4 personas y debe curplir con los siguientes requisitos:
+Proyecto Web desarrollado como Trabajo Practico Obligatorio del curso Codo a Codo 4.0. El mismo es un trabajo grupal de 4 personas y debe cumplir con los siguientes requisitos:
 
 ● Poseer al menos 4 páginas html, siendo su temática libre. En caso de ser un Sitio
 Web estilo One Page, el mismo deberá tener al menos 4 secciones.
