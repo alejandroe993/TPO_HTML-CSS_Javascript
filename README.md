@@ -76,7 +76,7 @@ A su vez el footter cuenta con los logos de las diferentes redes sociales del re
 ### Animacion
 La animacion utilizada es una del tipo vibratorio empleando el siguiente codigo:
 
-```python
+```css
 @keyframes vibrate {
   0% { transform: rotate(0deg); }
   10% { transform: rotate(-3deg); }
@@ -103,7 +103,10 @@ La misma esta presente en el logo de la barra de navegacion y los logos de las r
 ### Responsive
 Cada pagina del proyecto utilizo Media Queries para crear tiene 3 puntos de cortes distintos, asi se pueda visualizar tanto en computadoras, tablets y celulares. Las siguientes son:
 
-```python
+
+
+
+```css
 INICIO
 @media screen and (max-width: 800px)
 @media screen and (max-width: 670px)
@@ -113,8 +116,8 @@ MENU
 POSTRES
 CATERING
 CONTACTO
-
 ```
+
 
 ### API
 
