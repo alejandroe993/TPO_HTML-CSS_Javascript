@@ -149,5 +149,5 @@ O el link de GitHub Pages:
 
 ●Martin, Joel Francisco
 
-●Romano, Reinaldo Carlos
+●Romano, Reinaldo Carlos (https://github.com/Aldo21496)
 
