@@ -37,6 +37,7 @@
         <li><a href="../menu/menu.html">Menú</a></li>
         <li><a href="../postres/postres.html">Postres</a></li>
         <li><a class="activo" href="../catering/catering.html">Catering</a></li>
+        <li><a href="../Cerveza/Cerveza.html">Cerveza</a></li>
         <li><a href="../contacto/contacto.html">Contacto</a></li>
       </ul>
     </nav>
@@ -191,8 +192,25 @@
           <label for="message">Mensaje:</label>
           <textarea required name="message" id="message" rows="6"> </textarea>
         </div>
-        <button type="submit" class="catering-form-submit" onclick="openPopup()">Enviar</button>
+        <!-- <button type="submit" class="catering-form-submit" onclick="openPopup()">Enviar</button> -->
 
+        <button id="open">
+          Enviar
+        </button>
+        
+        <div id="modal_container" class="modal-container">
+          <div class="modal">
+            <h1>Su pedido fue recibido</h1>
+            <p>
+              Su pedido fue recibido con exito.
+              Nos pondremos en contacto para reslizar la entraga de su pedido.
+              Desde ya muchas gracias.
+            </p>
+            <button id="close">Cerrar</button>
+          </div>
+        </div>
+
+      
       </form>
 
     </section>
@@ -245,6 +263,7 @@
 
   <script src="../../js/slice.js"></script>
   <script src="../../js/validaformcaterin.js"></script>
+  <script src="../../js/Formulario.js"></script>
 
 </body>
 
