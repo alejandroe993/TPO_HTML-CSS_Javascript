@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="es">
 
@@ -173,4 +174,184 @@
 
 <script src="../../js/Formulario.js"> </script>
 
+=======
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="../../media/icono.png">
+  <title>Formulario de contacto</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="../../css/main.css">
+  <link rel="stylesheet" href="../../css/barranav.css">
+  <link rel="stylesheet" type="text/css" href="../../css/contacto-form.css">
+</head>
+
+<body>
+  <header class="topheader">
+    <nav class="navbar">
+      <a href="#" class="logo">
+        <img height=45px width=130px src="../../media/logonav.png" alt="logo">
+        <div>
+          Comidas Regionales
+        </div>
+      </a>
+      <input class="checkbox" type="checkbox">
+      <img class="icons iconbarra" src="../../media/bars.svg" alt="abrir menú" />
+      <img class="icons iconcerrar" src="../../media/xmark.svg" alt="cerrar menú" />
+
+      <ul class="menu">
+        <li><a href="../../../index.html">Inicio</a></li>
+        <li><a href="../menu/menu.html">Menú</a></li>
+        <li><a href="../postres/postres.html">Postres</a></li>
+        <li><a href="../catering/catering.html">Catering</a></li>
+        <li><a class="activo" href="../contacto/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="contact_form">
+
+    <div class="formulario">
+      <h1>Formulario de contacto</h1>
+      <h3>Escríbenos y en breve los pondremos en contacto contigo.</h3>
+
+      <form action="submeter-formulario.php" method="post" id="formul">
+        <p>
+          <label for="nombre" class="colocar_nombre">Nombre
+            <span class="obligatorio">*</span>
+          </label>
+          <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+            placeholder="Escribe tu nombre">
+        </p>
+
+        <p>
+          <label for="direccion" class="colocar_direccion">Dirección
+            <span class="obligatorio">*</span>
+          </label>
+          <input type="text" name="introducir_direccion" id="direcion" required="obligatorio"
+            placeholder="Escribe tu Direción">
+        </p>
+
+        <p>
+          <label for="telefono" class="colocar_telefono">Teléfono
+            <span class="obligatorio">*</span>
+          </label>
+          <input type="number" name="introducir_telefono" id="telefono" required="obligatorio"
+            placeholder="Escribe tu teléfono">
+        </p>
+        <div>
+          <p>
+            <label for="selecMenu" class="selecione_menu">Selecione Menú
+            </label>
+          </p>
+          <br>
+          <select name="selec_menu" id="num_menu">
+            <option value="Nada">Ningún Menú Selecionado</option>
+            <option value="m01">Empanadas</option>
+            <option value="m02">Picada</option>
+            <option value="m03">Dorado a la pizza</option>
+            <option value="m04">Tabla de asado</option>
+            <option value="m05">Hamburguesa gourmet</option>
+            <option value="m06">Tortilla de papas</option>
+            <option value="m07">Pollo al verdeo con papas</option>
+            <option value="m08">Pechuga a la plancha con verduras</option>
+            <option value="m09">Solomillo de cerdo en salsa de 4 quesos</option>
+          </select>
+        </div>
+        <br>
+        <div>
+          <p>
+            <label for="selecPostre" class="selecione_postre">Selecione Postre
+            </label>
+          </p>
+          <br>
+
+          <select name="selec_postre" id="num_postre">
+            <option value="Nada">Ningún Postre Selecionado</option>
+            <option value="m01">Chocotorta con baño de chocolate</option>
+            <option value="m02">Tiramisú</option>
+            <option value="m03">Flan de Huevo</option>
+            <option value="m04">Copa Helada</option>
+          </select>
+        </div>
+
+        <!-- <button onclick="alert('Su pedido fue enviado')" name="enviar_formulario" id="enviar">
+          <p>Enviar</p>
+        </button> -->
+
+        <button id="open">
+          Realizar Pedido
+        </button>
+        
+        <div id="modal_container" class="modal-container">
+          <div class="modal">
+            <h1>Su pedido fue recibido</h1>
+            <p>
+              Su pedido fue recibido con exito.
+              Nos pondremos en contacto para reslizar la entraga de su pedido.
+              Desde ya muchas gracias.
+            </p>
+            <button id="close">Cerrar</button>
+          </div>
+        </div>
+
+        <p class="aviso">
+          <span class="obligatorio"> * </span>los campos son obligatorios.
+        </p>
+
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <div>
+      <nav class="social">
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.facebook.com/" class="social-link" target="_blank"><img
+                src="../../media/facebook-svgrepo-com.svg" alt="perfil twitter">
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/" class="social-link" target="_blank"><img
+                src="../../media/twitter-svgrepo-com.svg" alt="perfil twitter">
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/" class="social-link" target="_blank"><img
+                src="../../media/instagram-svgrepo-com.svg" alt="perfil youtube">
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link"><img src="../../media/sharethis-svgrepo-com.svg" alt="perfil github">
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://api.whatsapp.com/send?phone=543434389604&text=Hola quiero realizar un pedido"
+              class="social-link" target="_blank"><img src="../../media/whatsapp-svgrepo-com.svg" alt="perfil linkedin">
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+    </div>
+
+    <div class="copywrite">&copy;Comidas JAJA😊 - Todos los Derechos Reservados</div>
+
+  </footer>
+
+</body>
+
+<script src="../../js/Formulario.js"> </script>
+
+>>>>>>> 8e84fcf802ac1a4fa02f6f0fcd8f1f1ed23129af
 </html>

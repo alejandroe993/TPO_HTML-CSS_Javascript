@@ -71,15 +71,16 @@
 } 
 
 .icons{
+  filter: invert(100%);
   pointer-events: none;
 }
 .checkbox{
-  opacity: 20;
+  opacity: 0;
 }
 
 .iconcerrar{
   display: none;
-  background-color: white;
+  /*background-color: white;*/
   
 }
 .checkbox:checked ~ .iconbarra{
