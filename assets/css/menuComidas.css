@@ -30,6 +30,7 @@ body {
   width: 100%;
 }
 
+
 h1 {
   color: white;
   text-align: left;
@@ -40,21 +41,34 @@ h1 {
   clear: both;
   display: grid;
   z-index: 100;
+
+  padding-top: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 2rem;
 }
 
 img {
   width: 100%;
 }
 
+#imgComida {
+  border-radius: 10px; 
+  border: orange 5px solid;
+}
+
 .columna {
   float: left;
   width: 33%;
-  /* padding-right: 5px; */
+  padding-right: 20px;
   position: relative;
 }
 
 .columna:hover figcaption {
   display: block;
+  border-radius: 20px;
+  width: 90%;
+  left: 10px;
 }
 
 .columna figcaption {
@@ -65,7 +79,7 @@ img {
   right: 5px;
   background: rgba(0, 0, 0, 0.6);
   text-align: center;
-  padding: 15px;
+  padding: 10px;
   font: 18px/20px verdana;
   color: rgb(255, 187, 0);
 }
