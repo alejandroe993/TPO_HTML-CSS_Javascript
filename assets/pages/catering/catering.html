@@ -29,14 +29,14 @@
         </div>
       </a>
       <input class="checkbox" type="checkbox">
-      <img class="icons iconbarra" src="assets/img/bars.svg" alt="abrir menú" />
-      <img class="icons iconcerrar" src="assets/img/xmark.svg" alt="cerrar menú" />
+      <img class="icons iconbarra" src="../../media/bars.svg" alt="abrir menú" />
+      <img class="icons iconcerrar" src="../../media/xmark.svg" alt="cerrar menú" />
 
       <ul class="menu">
         <li><a href="../../../index.html">Inicio</a></li>
         <li><a href="../menu/menu.html">Menú</a></li>
         <li><a href="../postres/postres.html">Postres</a></li>
-        <li><a class="activo" href="../catering/catering.html">Catering</a></li>
+        <li><a class="activo" href="#">Catering</a></li>
         <li><a href="../Cerveza/Cerveza.html">Cerveza</a></li>
         <li><a href="../contacto/contacto.html">Contacto</a></li>
       </ul>
@@ -194,76 +194,72 @@
         </div>
         <!-- <button type="submit" class="catering-form-submit" onclick="openPopup()">Enviar</button> -->
 
-        <button id="open">
+        <button id="submit">
           Enviar
         </button>
-        
-        <div id="modal_container" class="modal-container">
-          <div class="modal">
-            <h1>Su pedido fue recibido</h1>
+
+        <div id="modal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>¡Gracias por contactarte!</h3>
             <p>
-              Su pedido fue recibido con exito.
-              Nos pondremos en contacto para reslizar la entraga de su pedido.
-              Desde ya muchas gracias.
+              Nos comunicaremos muy pronto para tus inquitudes sobre el servicio de catering.
+              Desde ya ¡muchas gracias!.
             </p>
-            <button id="close">Cerrar</button>
+            <button id="modal-close">Cerrar</button>
           </div>
         </div>
 
-      
       </form>
 
     </section>
-
-
 
   </div>
 
   <footer>
     <div>
-        <nav class="social">
-            <ul class="social-list">
-                <li class="social-item">
-                    <a href="https://www.facebook.com/" class="social-link" target="_blank"><img
-                            src="../../media/facebook-svgrepo-com.svg" alt="perfil facebook">
-                    </a>
-                </li>
+      <nav class="social">
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.facebook.com/" class="social-link" target="_blank"><img
+                src="../../media/facebook-svgrepo-com.svg" alt="perfil facebook">
+            </a>
+          </li>
 
-                <li class="social-item">
-                    <a href="https://twitter.com/" class="social-link" target="_blank"><img
-                            src="../../media/twitter-svgrepo-com.svg" alt="perfil twitter">
-                    </a>
-                </li>
+          <li class="social-item">
+            <a href="https://twitter.com/" class="social-link" target="_blank"><img
+                src="../../media/twitter-svgrepo-com.svg" alt="perfil twitter">
+            </a>
+          </li>
 
-                <li class="social-item">
-                    <a href="https://www.instagram.com/" class="social-link" target="_blank"><img
-                            src="../../media/instagram-svgrepo-com.svg" alt="perfil instagram">
-                    </a>
-                </li>
+          <li class="social-item">
+            <a href="https://www.instagram.com/" class="social-link" target="_blank"><img
+                src="../../media/instagram-svgrepo-com.svg" alt="perfil instagram">
+            </a>
+          </li>
 
-                <li class="social-item">
-                    <a href="https://www.sharelinkgenerator.com/" class="social-link" target="_blank"><img
-                            src="../../media/sharethis-svgrepo-com.svg" alt="perfil share">
-                    </a>
-                </li>
+          <li class="social-item">
+            <a href="https://www.sharelinkgenerator.com/" class="social-link" target="_blank"><img
+                src="../../media/sharethis-svgrepo-com.svg" alt="perfil share">
+            </a>
+          </li>
 
-                <li class="social-item">
-                    <a href="https://api.whatsapp.com/send?phone=543434389604&text=Hola quiero realizar un pedido"
-                        class="social-link" target="_blank"><img src="../../media/whatsapp-svgrepo-com.svg"
-                            alt="perfil whatsapp">
-                    </a>
-                </li>
-            </ul>
-        </nav>
+          <li class="social-item">
+            <a href="https://api.whatsapp.com/send?phone=543434389604&text=Hola quiero realizar un pedido"
+              class="social-link" target="_blank"><img src="../../media/whatsapp-svgrepo-com.svg" alt="perfil whatsapp">
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
 
     <div class="copywrite">&copy;Comidas JAJA😊 - Todos los Derechos Reservados</div>
 
-</footer>
+  </footer>
 
   <script src="../../js/slice.js"></script>
   <script src="../../js/validaformcaterin.js"></script>
-  <script src="../../js/Formulario.js"></script>
+
 
 </body>
 
