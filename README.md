@@ -149,9 +149,4 @@ O el link de GitHub Pages:
 
 ●Martin, Joel Francisco
 
-<<<<<<< HEAD
-●Romano, Reinaldo Carlos
-=======
 ●Romano, Reinaldo Carlos (https://github.com/Aldo21496)
->>>>>>> 8e84fcf802ac1a4fa02f6f0fcd8f1f1ed23129af
-
