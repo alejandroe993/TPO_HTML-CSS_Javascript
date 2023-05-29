@@ -130,6 +130,9 @@ MENU
 @media screen and (max-width: 800px)
 
 POSTRES
+@media (min-width: 380px)
+@media (min-width: 800px)
+@media (min-width: 1024px)
 
 CATERING
 @media (min-width: 1024px)
@@ -182,6 +185,7 @@ Para acceder al proyecto se puede utilizar el link al repositorio de GitHub:
 https://github.com/alejandroe993/TPO_HTML-CSS_Javascript
 
 O el link de GitHub Pages:
+https://alejandroe993.github.io/TPO_HTML-CSS_Javascript/
 
 
 ## Tecnologías Y herramientas utilizadas
