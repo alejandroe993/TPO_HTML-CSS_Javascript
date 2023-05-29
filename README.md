@@ -39,7 +39,7 @@ similar.
 el Instructor. Ejemplo: GitHub Pages, Netlify o similares.
 
 ## Descripción del Proyecto
-Para el proyecto se creo una pagina web de una cadena de restaurantes llamada "JAJA Comidas Regionales". La misma cuenta con 5 paginas HTML realizadas por los distintos miembros del grupo. Las mismas son : Inicio, Menu, Postres, Catering y Contacto. Todas a su vez estan estilizadas utilizando herramientas de CSS y algunas empleando tecnologias de Javascript. Se trata de una pagina web responsive con 3 puntos de corte para ser visible en computadoras, tablets y celulares. 
+Para el proyecto se creo una pagina web de una cadena de restaurantes llamada "JAJA Comidas Regionales". La misma cuenta con 6 paginas HTML realizadas por los distintos miembros del grupo. Las mismas son : Inicio, Menu, Postres, Cervezas, Catering y Contacto. Todas a su vez estan estilizadas utilizando herramientas de CSS y algunas empleando tecnologias de Javascript. Se trata de una pagina web responsive con 3 puntos de corte para ser visible en computadoras, tablets y celulares. 
 
 ![Pagina inicial](https://github.com/alejandroe993/TPO_HTML-CSS_Javascript/assets/95320686/8ecb45a4-3d89-41c5-8b97-d5d6dca44588)
 
@@ -172,7 +172,7 @@ La API utilizada en este caso proviene de la pagina https://sampleapis.com/api-l
 
 La informacion no se consume directamente de la API sino que se realizo un mockup para crear una base de datos local de tipo JSON en la carpeta [assets/db/beers.json.](https://github.com/alejandroe993/TPO_HTML-CSS_Javascript/blob/main/assets/db/beers.json)
 
-Al ingresar a la pagina "Cervezas" nos pedira que pongamos un precio maximo y en base a eso nos moestrara diferentes tipos de cervezas con su imagen, nombre y un precio inferior o igual al que elegimos.
+Al ingresar a la pagina "Cervezas" nos pedira que pongamos un precio maximo y en base a eso nos mostrara diferentes tipos de cervezas con su imagen, nombre y un precio inferior o igual al que elegimos.
 
 ![Screenshot (56)](https://github.com/alejandroe993/TPO_HTML-CSS_Javascript/assets/95320686/3da40e62-bef9-4c53-add5-1aa687875fd1)
 
