@@ -179,8 +179,7 @@ Al ingresar a la pagina "Cervezas" nos pedira que pongamos un precio maximo y en
 
 ## Acceso al Proyecto
 Para acceder al proyecto se puede utilizar el link al repositorio de GitHub:
-
-https://github.com/alejandroe993/TPO_HTML-CSS_Javascript.git
+https://github.com/alejandroe993/TPO_HTML-CSS_Javascript
 
 O el link de GitHub Pages:
 
