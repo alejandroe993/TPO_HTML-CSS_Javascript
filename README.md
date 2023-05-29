@@ -172,7 +172,7 @@ La API utilizada en este caso proviene de la pagina https://sampleapis.com/api-l
 
 La informacion no se consume directamente de la API sino que se realizo un mockup para crear una base de datos local de tipo JSON en la carpeta [assets/db/beers.json.](https://github.com/alejandroe993/TPO_HTML-CSS_Javascript/blob/main/assets/db/beers.json)
 
-Al ingresar a la pagina "Cervezas" nos pedira que pongamos un precio maximo y en base a eso nos moestrara diferentes tipos de cervezas con su imagen, nombre y un precio inferior o igual al que elejimos.
+Al ingresar a la pagina "Cervezas" nos pedira que pongamos un precio maximo y en base a eso nos moestrara diferentes tipos de cervezas con su imagen, nombre y un precio inferior o igual al que elegimos.
 
 ![Screenshot (56)](https://github.com/alejandroe993/TPO_HTML-CSS_Javascript/assets/95320686/3da40e62-bef9-4c53-add5-1aa687875fd1)
 
