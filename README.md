@@ -118,7 +118,7 @@ Animacion de difuminado en la pagina "Catering"
 
 
 ### Responsive
-Cada pagina del proyecto utilizo Media Queries para crear tiene 3 puntos de cortes distintos, asi se pueda visualizar tanto en computadoras, tablets y celulares. Las siguientes son:
+Cada pagina del proyecto utilizo Media Queries para crear puntos de cortes y asi se pueda visualizar tanto en computadoras, tablets y celulares. Debido a las diferentes configuracions de las paginas, se usaron distintos puntos de corte para cada una. Los siguientes son:
 
 ```css
 INICIO
