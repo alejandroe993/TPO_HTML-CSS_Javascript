@@ -201,6 +201,6 @@ O el link de GitHub Pages:
 
 ●Pizarro, Juan Francisco (https://github.com/juanpizarro11) ==> Pagina Principal, animaciones y logo.
 
-●Martin, Joel Francisco ==> Pagina de Postres
+●Martin, Joel Francisco (https://github.com/joelmartin73) ==> Pagina de Postres
 
 ●Romano, Reinaldo Carlos (https://github.com/Aldo21496) ==> Pagina de catering y Barra de navegacion.
