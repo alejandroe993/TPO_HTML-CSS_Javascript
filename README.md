@@ -74,7 +74,7 @@ A su vez el footter cuenta con los logos de las diferentes redes sociales del re
 
 
 ### Animacion
-La animacion utilizada es una del tipo vibratorio empleando el siguiente codigo:
+La animacion utilizada es una del tipo vibratorio. La misma esta presente en el logo de la barra de navegacion y los logos de las redes sociales:
 
 ```css
 @keyframes vibrate {
@@ -97,14 +97,28 @@ La animacion utilizada es una del tipo vibratorio empleando el siguiente codigo:
 }
 
 ```
-La misma esta presente en el logo de la barra de navegacion y los logos de las redes sociales.
+
+
+Animacion de difuminado en la pagina "Catering"
+
+```css
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+```
 
 
 ### Responsive
 Cada pagina del proyecto utilizo Media Queries para crear tiene 3 puntos de cortes distintos, asi se pueda visualizar tanto en computadoras, tablets y celulares. Las siguientes son:
-
-
-
 
 ```css
 INICIO
@@ -113,13 +127,54 @@ INICIO
 @media screen and (max-width: 380px)
 
 MENU
+@media screen and (max-width: 800px)
+
 POSTRES
+
 CATERING
+@media (min-width: 1024px)
+
 CONTACTO
+@media screen and (max-width: 800px)
 ```
 
+### Formulario
+El formulario de la pagina de "Catering" cuenta con una validacion mediante Javascript.
+
+![Screenshot (57)](https://github.com/alejandroe993/TPO_HTML-CSS_Javascript/assets/95320686/c15ad4e5-e3d8-47ab-ae6a-517dee59d7a6)
+
+Se empleo el siguiente codigo:
+
+```js
+// Validar los campos del formulario
+  const nombre = document.querySelector("#name").value.trim();
+  const email = document.querySelector("#email").value.trim();
+  const mensaje = document.querySelector("#message").value.trim();
+
+  if (nombre === "" || email === "" || mensaje === "") {
+    alert("Por favor, complete todos los campos del formulario.");
+    return;
+  }
+
+  // Validar el formato del correo electrónico utilizando una expresión regular simple
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailRegex.test(email)) {
+    alert("Por favor, ingrese un correo electrónico válido.");
+    return;
+  }
+```
 
 ### API
+La API utilizada en este caso proviene de la pagina https://sampleapis.com/api-list/beers 
+
+![Screenshot (54)](https://github.com/alejandroe993/TPO_HTML-CSS_Javascript/assets/95320686/07203780-4807-4934-88bb-f79f765c89c8)
+
+
+La informacion no se consume directamente de la API sino que se realizo un mockup para crear una base de datos local de tipo JSON en la carpeta [assets/db/beers.json.](https://github.com/alejandroe993/TPO_HTML-CSS_Javascript/blob/main/assets/db/beers.json)
+
+Al ingresar a la pagina "Cervezas" nos pedira que pongamos un precio maximo y en base a eso nos moestrara diferentes tipos de cervezas con su imagen, nombre y un precio inferior o igual al que elejimos.
+
+![Screenshot (56)](https://github.com/alejandroe993/TPO_HTML-CSS_Javascript/assets/95320686/3da40e62-bef9-4c53-add5-1aa687875fd1)
 
 
 ## Acceso al Proyecto
@@ -143,10 +198,10 @@ O el link de GitHub Pages:
 
 
 ## Personas Desarrolladoras del Proyecto
-●Espinosa, Alejandro (https://github.com/alejandroe993)
+●Espinosa, Alejandro (https://github.com/alejandroe993) ==> Pagina de Menu, Cerveza y Contacto.
 
-●Pizarro, Juan Francisco (https://github.com/juanpizarro11)
+●Pizarro, Juan Francisco (https://github.com/juanpizarro11) ==> Pagina Principal, animaciones y logo.
 
-●Martin, Joel Francisco
+●Martin, Joel Francisco ==> Pagina de Postres
 
-●Romano, Reinaldo Carlos (https://github.com/Aldo21496)
+●Romano, Reinaldo Carlos (https://github.com/Aldo21496) ==> Pagina de catering y Barra de navegacion.
