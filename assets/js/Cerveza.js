@@ -1,5 +1,5 @@
 import { Beer } from "../js/Beer.js";
-import beers from "../db/beers.json" assert { type: "json" }; //automaticamente hace un cast (pues es lo que está utilizando como valores default.)
+import beers from "../db/beers.json" assert { type: "json" }; 
 
 let beersObjeto = beers.map(
     (beer) => new Beer(beer.name, beer.price, beer.image),
